@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="Pae-s1-0Px">
+                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="eCO-91-WQb">
+                                        <rect key="frame" x="40" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="tintColor" red="0.13840031899999999" green="0.10099166079999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="GUQ-HU-ggy">
+                                        <rect key="frame" x="80" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="8rW-Ot-7QM">
+                                        <rect key="frame" x="120" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="7Fz-BE-uJO">
+                                        <rect key="frame" x="160" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="f3C-re-cSw">
+                                        <rect key="frame" x="200" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="h0Y-9r-2at">
+                                        <rect key="frame" x="0.0" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="ArL-nk-faj">
+                                        <rect key="frame" x="40" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="J5v-T8-qXx">
+                                        <rect key="frame" x="80" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="X6b-EP-JNp">
+                                        <rect key="frame" x="120" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="YbN-fS-d8B">
+                                        <rect key="frame" x="160" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="gvU-33-0X4">
+                                        <rect key="frame" x="200" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="0qI-jr-2dN">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="gqd-vB-2Ul">
+                                        <rect key="frame" x="240" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="emK-dJ-zpS">
+                                        <rect key="frame" x="280" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="qL2-KG-Yy7">
+                                        <rect key="frame" x="240" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="07H-Fr-e1D">
+                                        <rect key="frame" x="280" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Ibc-14-9iH">
+                                        <rect key="frame" x="40" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="xRh-fp-CTT">
+                                        <rect key="frame" x="80" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="T2d-Tk-1OY">
+                                        <rect key="frame" x="120" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="6hd-O1-Yvf">
+                                        <rect key="frame" x="160" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Zzk-rV-S7z">
+                                        <rect key="frame" x="200" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="15t-p0-V7f">
+                                        <rect key="frame" x="40" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="ifR-FG-3sz">
+                                        <rect key="frame" x="80" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="zFw-ou-saU">
+                                        <rect key="frame" x="120" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="6Se-Da-Fco">
+                                        <rect key="frame" x="160" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="D3H-eO-VWA">
+                                        <rect key="frame" x="200" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="7Lu-Mg-FCa">
+                                        <rect key="frame" x="0.0" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Me5-EE-g3X">
+                                        <rect key="frame" x="240" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="BJ1-Md-E5t">
+                                        <rect key="frame" x="280" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="zOX-6I-Nc0">
+                                        <rect key="frame" x="240" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="6vs-SI-M0f" userLabel="redCheckers">
+                                        <rect key="frame" x="45" y="5" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="Qlj-6R-IJq" userLabel="redCheckers">
+                                        <rect key="frame" x="125" y="5" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="GbY-67-8rh" userLabel="redCheckers">
+                                        <rect key="frame" x="205" y="5" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="lZa-nL-93b" userLabel="redCheckers">
+                                        <rect key="frame" x="285" y="5" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="nLJ-1j-y3e" userLabel="redCheckers">
+                                        <rect key="frame" x="45" y="85" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="438-ed-odz" userLabel="redCheckers">
+                                        <rect key="frame" x="125" y="85" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="qSg-Xs-2RD" userLabel="redCheckers">
+                                        <rect key="frame" x="205" y="85" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="yha-fj-msJ" userLabel="redCheckers">
+                                        <rect key="frame" x="285" y="85" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="pIC-4E-Fst" userLabel="redCheckers">
+                                        <rect key="frame" x="5" y="45" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="mWV-uW-jiq" userLabel="redCheckers">
+                                        <rect key="frame" x="85" y="45" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="1Ef-tq-X1F" userLabel="redCheckers">
+                                        <rect key="frame" x="165" y="45" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="SWf-3X-Jwq" userLabel="redCheckers">
+                                        <rect key="frame" x="245" y="45" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.095350790369999994" blue="0.088143828460000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="BpB-Gl-b6R">
+                                        <rect key="frame" x="280" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="grw-1b-tCj">
+                                        <rect key="frame" x="40" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="0a4-hK-flE">
+                                        <rect key="frame" x="80" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Ijf-aE-QZV">
+                                        <rect key="frame" x="120" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Koh-3b-0W5">
+                                        <rect key="frame" x="160" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Fme-D0-kr2">
+                                        <rect key="frame" x="200" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="eRd-XZ-2Zo">
+                                        <rect key="frame" x="0.0" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="TVV-jW-dcj">
+                                        <rect key="frame" x="40" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="ik0-Q5-DBR">
+                                        <rect key="frame" x="80" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="lGP-qg-4Jx">
+                                        <rect key="frame" x="120" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="j1s-vU-DSO">
+                                        <rect key="frame" x="160" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="UEV-mV-42l">
+                                        <rect key="frame" x="200" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="0qr-V8-aNM">
+                                        <rect key="frame" x="0.0" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="jKt-oo-YFw">
+                                        <rect key="frame" x="240" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="doY-iW-KIM">
+                                        <rect key="frame" x="280" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="veb-EH-Jov">
+                                        <rect key="frame" x="240" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="xQa-kj-NAg">
+                                        <rect key="frame" x="280" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="DCw-QY-3oZ">
+                                        <rect key="frame" x="40" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="KVG-0Y-KlI">
+                                        <rect key="frame" x="80" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="K9I-LK-6Uv">
+                                        <rect key="frame" x="120" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="1dy-Av-nVn">
+                                        <rect key="frame" x="160" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="wT8-ro-qp9">
+                                        <rect key="frame" x="200" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Cp0-Pq-Eu9">
+                                        <rect key="frame" x="0.0" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="s1w-rO-w24">
+                                        <rect key="frame" x="40" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="gI6-Ns-kpP">
+                                        <rect key="frame" x="80" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="cE6-86-rU4">
+                                        <rect key="frame" x="120" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="5US-oD-kwD">
+                                        <rect key="frame" x="160" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="4cS-3q-RF0">
+                                        <rect key="frame" x="200" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="ppY-6m-Y8S">
+                                        <rect key="frame" x="0.0" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Jbp-9T-VQS">
+                                        <rect key="frame" x="240" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="qrr-2X-KEO">
+                                        <rect key="frame" x="280" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Nxb-LN-Bdk">
+                                        <rect key="frame" x="240" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="eBg-U3-paG">
+                                        <rect key="frame" x="280" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="IMC-rQ-Tik">
+                                        <rect key="frame" x="0.0" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="ZtG-Fc-nXr" userLabel="whiteCheckers">
+                                        <rect key="frame" x="5" y="285" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="iRw-bL-kFW" userLabel="whiteCheckers">
+                                        <rect key="frame" x="85" y="285" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="sSw-gc-Vb4" userLabel="whiteCheckers">
+                                        <rect key="frame" x="165" y="285" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="o5l-19-6XG" userLabel="whiteCheckers">
+                                        <rect key="frame" x="245" y="285" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="ppZ-NP-Duz" userLabel="whiteCheckers">
+                                        <rect key="frame" x="45" y="245" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="7Vk-VL-WFz" userLabel="whiteCheckers">
+                                        <rect key="frame" x="125" y="245" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="zS9-Lt-MeG" userLabel="whiteCheckers">
+                                        <rect key="frame" x="205" y="245" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="xku-c0-iDa" userLabel="whiteCheckers">
+                                        <rect key="frame" x="285" y="245" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="Ehx-h2-kbm" userLabel="whiteCheckers">
+                                        <rect key="frame" x="5" y="205" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="TD9-Bm-1ju" userLabel="whiteCheckers">
+                                        <rect key="frame" x="85" y="205" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="3rx-JU-3et" userLabel="whiteCheckers">
+                                        <rect key="frame" x="165" y="205" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view tag="1" contentMode="scaleToFill" id="8YW-ZR-fxz" userLabel="whiteCheckers">
+                                        <rect key="frame" x="245" y="205" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="boardView" destination="Pae-s1-0Px" id="WUP-TJ-vOr"/>
+                        <outletCollection property="blackCells" destination="f3C-re-cSw" id="3ax-2g-TyS"/>
+                        <outletCollection property="blackCells" destination="emK-dJ-zpS" id="z6m-p7-Fcn"/>
+                        <outletCollection property="blackCells" destination="8rW-Ot-7QM" id="IIw-QU-Aa7"/>
+                        <outletCollection property="blackCells" destination="eCO-91-WQb" id="OWT-GS-6is"/>
+                        <outletCollection property="blackCells" destination="YbN-fS-d8B" id="K2l-ch-MXL"/>
+                        <outletCollection property="blackCells" destination="qL2-KG-Yy7" id="Q4E-Od-Qwp"/>
+                        <outletCollection property="blackCells" destination="J5v-T8-qXx" id="8rd-tO-3Ez"/>
+                        <outletCollection property="blackCells" destination="h0Y-9r-2at" id="mRP-sT-arW"/>
+                        <outletCollection property="blackCells" destination="Ibc-14-9iH" id="4fW-Rb-Wnh"/>
+                        <outletCollection property="blackCells" destination="T2d-Tk-1OY" id="Buw-ej-QbK"/>
+                        <outletCollection property="blackCells" destination="Zzk-rV-S7z" id="ztX-zx-yNn"/>
+                        <outletCollection property="blackCells" destination="BJ1-Md-E5t" id="wkH-zP-u6N"/>
+                        <outletCollection property="blackCells" destination="zOX-6I-Nc0" id="Urc-Zu-8oW"/>
+                        <outletCollection property="blackCells" destination="6Se-Da-Fco" id="P5Q-QO-4Pn"/>
+                        <outletCollection property="blackCells" destination="ifR-FG-3sz" id="OGb-ws-w8x"/>
+                        <outletCollection property="blackCells" destination="IMC-rQ-Tik" id="nYf-l6-EK1"/>
+                        <outletCollection property="blackCells" destination="grw-1b-tCj" id="3ef-34-7lG"/>
+                        <outletCollection property="blackCells" destination="Ijf-aE-QZV" id="I5k-9b-rqA"/>
+                        <outletCollection property="blackCells" destination="Fme-D0-kr2" id="gZ4-Pw-9Vv"/>
+                        <outletCollection property="blackCells" destination="doY-iW-KIM" id="Mfh-tU-MF7"/>
+                        <outletCollection property="blackCells" destination="veb-EH-Jov" id="U70-Xw-dQF"/>
+                        <outletCollection property="blackCells" destination="j1s-vU-DSO" id="3pI-ZC-8BL"/>
+                        <outletCollection property="blackCells" destination="ik0-Q5-DBR" id="EtP-nd-UM1"/>
+                        <outletCollection property="blackCells" destination="eRd-XZ-2Zo" id="tub-5q-CAQ"/>
+                        <outletCollection property="blackCells" destination="DCw-QY-3oZ" id="CpN-kv-mpg"/>
+                        <outletCollection property="blackCells" destination="K9I-LK-6Uv" id="bXV-IG-EWA"/>
+                        <outletCollection property="blackCells" destination="wT8-ro-qp9" id="sjr-nL-LVY"/>
+                        <outletCollection property="blackCells" destination="qrr-2X-KEO" id="qDC-Ej-Ihi"/>
+                        <outletCollection property="blackCells" destination="Nxb-LN-Bdk" id="zd3-xX-NcF"/>
+                        <outletCollection property="blackCells" destination="5US-oD-kwD" id="bPu-Uy-1y9"/>
+                        <outletCollection property="blackCells" destination="gI6-Ns-kpP" id="bLY-ua-7TD"/>
+                        <outletCollection property="blackCells" destination="Cp0-Pq-Eu9" id="AJJ-BP-KBe"/>
+                        <outletCollection property="whiteCheckers" destination="iRw-bL-kFW" id="T1O-EI-SGN"/>
+                        <outletCollection property="whiteCheckers" destination="ZtG-Fc-nXr" id="jPJ-GU-Cd3"/>
+                        <outletCollection property="whiteCheckers" destination="sSw-gc-Vb4" id="EGB-67-OwJ"/>
+                        <outletCollection property="whiteCheckers" destination="o5l-19-6XG" id="xH9-F7-Usm"/>
+                        <outletCollection property="whiteCheckers" destination="ppZ-NP-Duz" id="xZc-eO-cBD"/>
+                        <outletCollection property="whiteCheckers" destination="7Vk-VL-WFz" id="kID-9p-wzv"/>
+                        <outletCollection property="whiteCheckers" destination="zS9-Lt-MeG" id="arw-U5-es4"/>
+                        <outletCollection property="whiteCheckers" destination="xku-c0-iDa" id="3wN-2o-DPJ"/>
+                        <outletCollection property="whiteCheckers" destination="Ehx-h2-kbm" id="zQT-Ha-4Gz"/>
+                        <outletCollection property="whiteCheckers" destination="TD9-Bm-1ju" id="uwT-mX-7ZL"/>
+                        <outletCollection property="whiteCheckers" destination="3rx-JU-3et" id="nwT-RO-d8f"/>
+                        <outletCollection property="whiteCheckers" destination="8YW-ZR-fxz" id="iaD-4t-wYp"/>
+                        <outletCollection property="redCkeckers" destination="6vs-SI-M0f" id="rUt-8W-UWH"/>
+                        <outletCollection property="redCkeckers" destination="Qlj-6R-IJq" id="xi8-ee-kby"/>
+                        <outletCollection property="redCkeckers" destination="GbY-67-8rh" id="4Wi-pO-fEu"/>
+                        <outletCollection property="redCkeckers" destination="lZa-nL-93b" id="yp6-YL-6Dh"/>
+                        <outletCollection property="redCkeckers" destination="nLJ-1j-y3e" id="w7g-wJ-BfJ"/>
+                        <outletCollection property="redCkeckers" destination="438-ed-odz" id="Ece-pX-27l"/>
+                        <outletCollection property="redCkeckers" destination="qSg-Xs-2RD" id="vta-nZ-7og"/>
+                        <outletCollection property="redCkeckers" destination="yha-fj-msJ" id="1Hs-0U-GMA"/>
+                        <outletCollection property="redCkeckers" destination="pIC-4E-Fst" id="IOh-EA-BSC"/>
+                        <outletCollection property="redCkeckers" destination="mWV-uW-jiq" id="Sjx-es-We1"/>
+                        <outletCollection property="redCkeckers" destination="1Ef-tq-X1F" id="LWT-a3-12K"/>
+                        <outletCollection property="redCkeckers" destination="SWf-3X-Jwq" id="uUr-1e-6Nu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="341"/>
+        </scene>
+    </scenes>
+</document>
